@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://D:/黑马java资料/java课程资料/javase长沙39期/08-JDBC（双元）/day01_jdbc基础/代码/代码/JDBC基础网页版/JDBC基础网页版.iml" filepath="D:/黑马java资料/java课程资料/javase长沙39期/08-JDBC（双元）/day01_jdbc基础/代码/代码/JDBC基础网页版/JDBC基础网页版.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Jdbc_login01/Jdbc_login01.iml" filepath="$PROJECT_DIR$/Jdbc_login01/Jdbc_login01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ajax_jackson/ajax_jackson.iml" filepath="$PROJECT_DIR$/ajax_jackson/ajax_jackson.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ajax_waterfall/ajax_waterfall.iml" filepath="$PROJECT_DIR$/ajax_waterfall/ajax_waterfall.iml" />
+      <module fileurl="file://$PROJECT_DIR$/elementui_student_manager_system/elementui_student_manager_system.iml" filepath="$PROJECT_DIR$/elementui_student_manager_system/elementui_student_manager_system.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jdbc_datasource_c3p0/jdbc_datasource_c3p0.iml" filepath="$PROJECT_DIR$/jdbc_datasource_c3p0/jdbc_datasource_c3p0.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jdbc_datasource_druid/jdbc_datasource_druid.iml" filepath="$PROJECT_DIR$/jdbc_datasource_druid/jdbc_datasource_druid.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mavenproject01/mavenproject01.iml" filepath="$PROJECT_DIR$/mavenproject01/mavenproject01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mybatis_annotation/mybatis_annotation.iml" filepath="$PROJECT_DIR$/mybatis_annotation/mybatis_annotation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mybatis_basic/mybatis_basic.iml" filepath="$PROJECT_DIR$/mybatis_basic/mybatis_basic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mybatis_proxy/mybatis_proxy.iml" filepath="$PROJECT_DIR$/mybatis_proxy/mybatis_proxy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nameCall/nameCall.iml" filepath="$PROJECT_DIR$/nameCall/nameCall.iml" />
+      <module fileurl="file://$PROJECT_DIR$/proxy_test/proxy_test.iml" filepath="$PROJECT_DIR$/proxy_test/proxy_test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/student_manage_system/student_manage_system.iml" filepath="$PROJECT_DIR$/student_manage_system/student_manage_system.iml" />
+    </modules>
+  </component>
+</project>

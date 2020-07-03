@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <div id="vue">
+        <h1>WELCOME</h1>
+        <button v-on:click="findAllStudent">findall</button>
+        <div style="text-align: center">
+            <div v-for="student in stuList">
+                <h1>{{student.fullName}},{{student.age}},{{student.id}}</h1>
+                <hr/>
+            </div>
+            <img v-show="!flag" src="img/loading.gif" alt="">
+        </div>
+
+    </div>
+
+</body>
+<script src="js/vue.js"></script>
+<script src="js/axios-0.18.0.js"></script>
+<script src="js/main.js"></script>
+<script>
+    var vm= new Vue({
+        el:"#vue",
+        data:{
+            stuList:[],
+            pageNum:1,
+            pageSize:10,
+            flag:true,
+        },
+        methods:{
+            findAllStudent:function () {
+                //post 请求参数 contentType 有问题
+                //通过URLSearchParams这个来封装数据
+                let params = new URLSearchParams();
+                params.append("pageNum",""+this.pageNum);
+                params.append("pageSize",""+this.pageSize);
+
+                this.axios.post("/studentServlet",params).then(value=>{
+                    this.stuList=value.data;
+                }).catch(reason=> {
+                    console.log(reason);
+                })
+            },
+            addMore:function () {
+                console.log(window.scrollY);
+                if(window.scrollY>=(328+(this.pageNum-1)*860)&&this.flag){
+                    this.flag=false;
+                    this.pageNum+=1;
+                    let params = new URLSearchParams();
+                    params.append("pageNum",""+this.pageNum);
+                    params.append("pageSize",""+this.pageSize);
+                    setTimeout(function () {
+                        axios.post("/studentServlet",params).then(value=>{
+                            vm.stuList=vm.stuList.concat(value.data);
+                            console.log(vm.stuList);
+                            vm.flag=true;
+                        }).catch(reason=> {
+                            console.log(reason);
+                        });
+                    },1500);
+
+
+                }
+            }
+        },
+        mounted:function (){
+            window.addEventListener("scroll", this.addMore)
+        }
+    })
+</script>
+</html>

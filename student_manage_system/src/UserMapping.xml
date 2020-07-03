@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.itheima.mapper.UserSearchDao">
+    <!--WHERE username LIKE '%pfh%'-->
+    <!--AND-->
+    <!--birthday BETWEEN '1956-10-21'-->
+    <!--AND '2010-12-21'-->
+    <select id="findByCondition"
+            resultType="com.itheima.domain.User" parameterType="com.itheima.domain.SearchParam">
+        SELECT * FROM USER
+        <where>
+            <if test="searchName!=null">
+                username like '%${searchName}%'
+            </if>
+            <if test="searchAge01!=null">
+                <if test="searchAge02!=null">
+                   and birthday BETWEEN '${searchAge02}' AND '${searchAge01}';
+                </if>
+            </if>
+        </where>
+
+    </select>
+</mapper>

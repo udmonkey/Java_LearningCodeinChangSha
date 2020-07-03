@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="lib5">
+    <CLASSES>
+      <root url="jar://D:/黑马java资料/java课程资料/javase长沙39期/08-JDBC（双元）/day01_jdbc基础/代码/代码/JDBC基础网页版/out/artifacts/sms_war_exploded/WEB-INF/lib/javax.servlet-api-3.1.0.jar!/" />
+      <root url="jar://D:/黑马java资料/java课程资料/javase长沙39期/08-JDBC（双元）/day01_jdbc基础/代码/代码/JDBC基础网页版/out/artifacts/sms_war_exploded/WEB-INF/lib/junit-4.12.jar!/" />
+      <root url="jar://D:/黑马java资料/java课程资料/javase长沙39期/08-JDBC（双元）/day01_jdbc基础/代码/代码/JDBC基础网页版/out/artifacts/sms_war_exploded/WEB-INF/lib/jsp-api-2.1.jar!/" />
+      <root url="jar://D:/黑马java资料/java课程资料/javase长沙39期/08-JDBC（双元）/day01_jdbc基础/代码/代码/JDBC基础网页版/out/artifacts/sms_war_exploded/WEB-INF/lib/commons-beanutils-1.9.3.jar!/" />
+      <root url="jar://D:/黑马java资料/java课程资料/javase长沙39期/08-JDBC（双元）/day01_jdbc基础/代码/代码/JDBC基础网页版/out/artifacts/sms_war_exploded/WEB-INF/lib/commons-logging-1.2.jar!/" />
+      <root url="jar://D:/黑马java资料/java课程资料/javase长沙39期/08-JDBC（双元）/day01_jdbc基础/代码/代码/JDBC基础网页版/out/artifacts/sms_war_exploded/WEB-INF/lib/mysql-connector-java-5.1.47.jar!/" />
+      <root url="jar://D:/黑马java资料/java课程资料/javase长沙39期/08-JDBC（双元）/day01_jdbc基础/代码/代码/JDBC基础网页版/out/artifacts/sms_war_exploded/WEB-INF/lib/jstl-1.2.jar!/" />
+      <root url="jar://D:/黑马java资料/java课程资料/javase长沙39期/08-JDBC（双元）/day01_jdbc基础/代码/代码/JDBC基础网页版/out/artifacts/sms_war_exploded/WEB-INF/lib/commons-collections-3.2.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,20 @@
+<component name="libraryTable">
+  <library name="commons-beanutils-1.9.3 (2)">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/student_manage_system/web/WEB-INF/lib/commons-beanutils-1.9.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/student_manage_system/web/WEB-INF/lib/commons-collections-3.2.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/student_manage_system/web/WEB-INF/lib/commons-logging-1.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/student_manage_system/web/WEB-INF/lib/javax.servlet-api-3.1.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/student_manage_system/web/WEB-INF/lib/jsp-api-2.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/student_manage_system/web/WEB-INF/lib/jsqlparser-3.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/student_manage_system/web/WEB-INF/lib/jstl-1.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/student_manage_system/web/WEB-INF/lib/junit-4.12.jar!/" />
+      <root url="jar://$PROJECT_DIR$/student_manage_system/web/WEB-INF/lib/log4j-1.2.17.jar!/" />
+      <root url="jar://$PROJECT_DIR$/student_manage_system/web/WEB-INF/lib/mybatis-3.5.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/student_manage_system/web/WEB-INF/lib/mysql-connector-java-5.1.47.jar!/" />
+      <root url="jar://$PROJECT_DIR$/student_manage_system/web/WEB-INF/lib/pagehelper-5.1.10.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
